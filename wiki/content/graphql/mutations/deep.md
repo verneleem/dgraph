@@ -66,7 +66,7 @@ This syntax does not remove any other existing posts, it just adds the existing 
 {{% /notice %}}
 
 ```graphql
-mutation updateAuthorWithExitingPost($patch: UpdateAuthorInput!) {
+mutation updateAuthorWithExistingPost($patch: UpdateAuthorInput!) {
   updateAuthor(input: $patch) {
     author {
       id
